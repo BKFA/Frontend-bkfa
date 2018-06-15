@@ -1,0 +1,90 @@
+/*====================================================
+                       ĐỀ THI
+======================================================*/
+
+#document {
+    padding: 60px 0;
+}
+
+.desc-document-cont {
+    height: 350px;
+    width: 210px;
+    margin: 50px auto;
+    /*    margin-bottom: 10px;*/
+    box-shadow: 3px 3px 10px 1px rgba(158, 158, 158, 0.68);
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.desc-document-cont:hover {
+  /*  margin-bottom: 2px;*/
+    border-bottom: 3px solid #268ff9;
+   /* margin-top: -1px;*/
+    cursor: pointer;
+}
+
+.document-content p {
+    padding: 10px 10px 0 10px;
+    font-size: 16px;
+    text-transform: none;
+}
+
+.document-content p:hover{
+    color: blue;
+}
+
+.desc-document-cont i {
+    padding: -10px 10px 0 0;
+    font-size: 13px;
+    color: #1AB1B1;
+}
+
+.document-footer{
+    text-align: center;
+}
+
+.document-footer span {
+    margin: 0px auto;
+    padding: 0 10px 10px 10px;
+    color: #8E8D8D;
+}
+
+.thumbnail-blogs {
+    text-align: center;
+}
+
+.thumbnail-blogs img {
+    margin-top: 5px;
+    width: 190px;
+    height: 220px;
+}
+
+.thumbnail-blogs img:hover {
+    box-shadow: 0px 0px 10px #027FFF;
+    -moz-box-shadow: 0px 0px 10px #027FFF;
+    -webkit-box-shadow: 0px 0px 10px #027FFF;
+}
+
+.card{
+    background: #eee;
+    background: -moz-linear-gradient(top, #fff 0%, #ddd 84%, #aaa 100%);
+    background: linear-gradient(top, #fff 0%, #ddd 84%, #aaa 100%);
+    -pie-background: linear-gradient(top, #fff 0%, #ddd 84%, #aaa 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fff), color-stop(84%,#ddd), color-stop(100%,#aaa));
+    -moz-box-shadow: 0 0 12px 1px #999 inset;
+    -webkit-box-shadow: 0 0 12px 1px #999 inset;
+    box-shadow: 0 0 12px 1px #999 inset;
+  /*  outline: 1px dashed #777;*/
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    margin: 0 auto; 
+}
+
+.cart-icon{
+    position:absolute; 
+    bottom:20px; 
+    margin-left: 22px;
+}
+
+

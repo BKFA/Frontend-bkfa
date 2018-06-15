@@ -1,0 +1,38 @@
+/*====================================================
+                   Tab
+======================================================*/
+
+.service-h-tab {
+    position: relative;
+    margin: 20px 0;
+}
+
+.service-h-tab .nav-tabs>a {
+    border-radius: 0;
+    width: 120px;
+    text-align: center;
+    height: 55px;
+    line-height: 40px;
+    border: 1px solid #ddd;
+}
+
+.service-h-tab .nav-tabs>a.active {
+    color: #fff;
+    border: 1px solid #2196f3;
+    background: #1AB1B1;
+}
+
+.service-h-tab .tab-content .tab-pane {
+    padding: 20px 20px 0px 10px;
+}
+
+@media (max-width: 767px) {
+    .service-h-tab .nav-tabs>a {
+        border-radius: 0;
+        width: 100%;
+        text-align: center;
+        height: 55px;
+        line-height: 40px;
+        border: 1px solid #ddd;
+    }
+}

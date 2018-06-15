@@ -1,0 +1,56 @@
+/*====================================================
+                   SLIDE
+======================================================*/
+
+.review-block .slide {
+    background-color: #FAFAFA;
+    border: 1px solid #EFEFEF;
+    padding: 15px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+.review-block .col-sm-3 img {
+    width: 145px;
+    height: 180px;
+}
+
+.review-block-name {
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.review-block-date {
+    font-size: 12px;
+}
+
+.review-block-rate {
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.review-block-title {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.review-block-description {
+    font-size: 13px;
+}
+
+@media (max-width: 575px) {
+    .review-block .col-sm-3 img {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .nx2 {
+        display: none;
+    }
+    .review-block-description {
+        font-size: 15px;
+    }
+}

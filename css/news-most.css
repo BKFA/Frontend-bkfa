@@ -1,0 +1,101 @@
+/*====================================================
+                   new-most
+======================================================*/
+
+.new-most {
+    background: #f0f0f0;
+    padding-bottom: 100px;
+}
+
+.title-news{
+    padding: 40px;
+}
+
+.title-news h2 {
+    color: #41464b;
+    text-align: center;
+    font-weight: 700;
+    margin: 20px auto 10px auto;
+}
+
+
+@media (max-width: 767px) {
+    .new-most {
+        padding: 0 40px 100px 40px;
+    }
+}
+
+/*  --------------------------------------------------
+                :: Table Filter
+-------------------------------------------------- */
+
+.panel {
+    border: 1px solid #ddd;
+    background-color: #fcfcfc;
+}
+
+.table-filter {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+.table-filter tbody tr:hover {
+    cursor: pointer;
+    background-color: #eee;
+}
+
+.table-filter tbody tr td {
+    padding: 10px;
+    vertical-align: middle;
+    border-top-color: #eee;
+}
+
+.table-filter tr td:first-child {
+    width: 38px;
+}
+
+.table-filter tr td:nth-child(2) {
+    width: 35px;
+}
+
+.table-filter .media-photo {
+    width: 35px;
+}
+
+.table-filter .media-body {
+    display: block;
+}
+
+.table-filter .media-meta {
+    font-size: 11px;
+    color: #999;
+}
+
+.table-filter .media .title {
+    color: #2BBCDE;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: normal;
+    margin: 0;
+}
+
+.table-filter .media .title span {
+    font-size: .8em;
+    margin-right: 20px;
+}
+
+.table-filter .media .title span.pagado {
+    color: #5cb85c;
+}
+
+.table-filter .media .title span.pendiente {
+    color: #f0ad4e;
+}
+
+.table-filter .media .title span.cancelado {
+    color: #d9534f;
+}
+
+.table-filter .media .summary {
+    font-size: 14px;
+}
