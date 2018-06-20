@@ -1,0 +1,91 @@
+.news-most {
+    background: #f0f0f0;
+    padding-bottom: 100px;
+}
+
+
+/*  --------------------------------------------------
+                Table news most
+-------------------------------------------------- */
+
+.panel {
+    border: 1px solid #ddd;
+    background-color: #F8F7F7;
+}
+
+.table-filter {
+    background-color: #fff;
+}
+
+.table-filter tbody tr:hover {
+    cursor: pointer;
+    background-color: #eee;
+}
+
+.table-filter tbody tr td {
+    padding: 10px;
+    vertical-align: middle;
+    border-top-color: #EBEBEB;
+}
+
+.table-filter tr td:first-child {
+    width: 38px;
+}
+
+.table-filter tr td:nth-child(2) {
+    width: 35px;
+}
+
+.table-filter .media-photo {
+    width: 50px;
+    margin: 0 20px 0 20px;
+}
+
+.table-filter .media-body {
+    display: block;
+}
+
+.table-filter .media-meta {
+    font-size: 11px;
+    color: #999;
+}
+
+.table-filter .media .title {
+    color: #1F72FC;
+    font-size: 15px;
+    line-height: normal;
+    margin: 0;
+}
+
+.table-filter .media .title:hover {
+    color: #841522;
+}
+
+.table-filter .media .title span {
+    font-size: .8em;
+    margin-right: 20px;
+}
+
+.table-filter .media .title span.author {
+    color: #1200FF;
+}
+
+.table-filter .media .summary {
+    font-size: 15px;
+    color: #1F1F1F;
+}
+
+.table-filter .media .summary2 {
+    font-size: 14px;
+    margin: -10px 0 -5px 0;
+    color: #9C9B9B;
+}
+
+.table-filter .media .summary2 span {
+    margin-right: 20px;
+}
+
+.table-filter .media .summary a {
+    padding-top: 0;
+    padding-bottom: 0;
+}
